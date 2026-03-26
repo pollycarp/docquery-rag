@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "total_questions": 8,
+    "hit_rate": 0.875,
+    "mrr": 0.7917,
+    "exact_match_rate": 0.875,
+    "citation_rate": 1.0
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many days of sick leave are employees entitled to?",
+      "expected_answer": "10 days",
+      "generated_answer": "According to [sample_policy.txt, 3.2], Employees are entitled to 10 days of paid sick leave per year.",
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 102.1,
+      "answer_ms": 90882.7
+    },
+    {
+      "id": 2,
+      "question": "How many days of annual leave do full-time employees receive?",
+      "expected_answer": "20 days",
+      "generated_answer": "According to [sample_policy.txt, page 3], full-time employees are entitled to 20 days of paid annual leave per calendar year.",
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 93.6,
+      "answer_ms": 28987.6
+    },
+    {
+      "id": 3,
+      "question": "How long is the probation period before an employee can apply for remote work?",
+      "expected_answer": "90 days",
+      "generated_answer": "According to [sample_policy.txt, page 4], employees who have completed their probation period (90 days) are eligible to apply for remote work arrangements. \n\nNote that there is no specific mention of the length of the probation period in relation to remote work eligibility in Source 5. However, it does state that employees must be employed for at least 90 days before they can apply for remote work.",
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 82.0,
+      "answer_ms": 46152.8
+    },
+    {
+      "id": 4,
+      "question": "How many weeks of parental leave does a primary caregiver receive?",
+      "expected_answer": "16 weeks",
+      "generated_answer": "According to [sample_policy.txt, page 3.3], primary caregivers are entitled to 16 weeks of paid parental leave.",
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 90.4,
+      "answer_ms": 46735.3
+    },
+    {
+      "id": 5,
+      "question": "When are performance reviews conducted during the year?",
+      "expected_answer": "July and December",
+      "generated_answer": "According to [sample_policy.txt], all employees undergo a formal performance review twice per year:\n\n- Mid-year review: July\n- Annual review: December\n\n(No additional sources needed for this answer.)",
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "exact_match": false,
+      "citation_present": true,
+      "retrieval_ms": 107.6,
+      "answer_ms": 41926.2
+    },
+    {
+      "id": 6,
+      "question": "What document must employees sign on their first day?",
+      "expected_answer": "Non-Disclosure Agreement",
+      "generated_answer": "According to [sample_policy.txt, SECTION 3: LEAVE POLICY], there is no mention of a specific document that employees must sign on their first day. However, it does state that \"All business information, including customer data, financial records, and trade secrets, must be kept strictly confidential.\" \n\nAdditionally, according to [sample_policy.txt, SECTION 2: CODE OF CONDUCT] and [sample_policy.txt, SECTION 4: REMOTE WORK POLICY], there is a mention of approval from HR and the department head for certain actions, but no specific document signing.\n\nHowever, it can be inferred that employees must sign a Non-Disclosure Agreement (NDA) as mentioned in [sample_policy.txt, SECTION 3: LEAVE POLICY] does not explicitly state this.",
+      "hit": true,
+      "reciprocal_rank": 0.3333333333333333,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 72.5,
+      "answer_ms": 57457.3
+    },
+    {
+      "id": 7,
+      "question": "How many business days does HR have to acknowledge a grievance?",
+      "expected_answer": "5 business days",
+      "generated_answer": "According to [sample_policy.txt, SECTION 7: GRIEVANCE PROCEDURE], HR will acknowledge the grievance within 5 business days.\n\nAdditionally, according to [sample_policy.txt, END OF HANDBOOK], it is stated that \"HR will acknowledge the grievance within 5 business days and schedule a hearing within 15 business days.\"",
+      "hit": true,
+      "reciprocal_rank": 1.0,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 79.5,
+      "answer_ms": 39703.1
+    },
+    {
+      "id": 8,
+      "question": "What is required for sick absences exceeding 3 consecutive days?",
+      "expected_answer": "medical certificate",
+      "generated_answer": "According to [Source 1: sample_policy.txt], a medical certificate is required for absences exceeding 3 consecutive days.\n\nAdditionally, according to [Source 2: sample_policy.txt], the same requirement applies.",
+      "hit": false,
+      "reciprocal_rank": 0.0,
+      "exact_match": true,
+      "citation_present": true,
+      "retrieval_ms": 79.7,
+      "answer_ms": 44142.9
+    }
+  ]
+}

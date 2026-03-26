@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "How many days of sick leave are employees entitled to?",
+    "expected_answer": "10 days",
+    "relevant_phrases": ["10 days of paid sick leave"]
+  },
+  {
+    "id": 2,
+    "question": "How many days of annual leave do full-time employees receive?",
+    "expected_answer": "20 days",
+    "relevant_phrases": ["20 days of paid annual leave"]
+  },
+  {
+    "id": 3,
+    "question": "How long is the probation period before an employee can apply for remote work?",
+    "expected_answer": "90 days",
+    "relevant_phrases": ["probation period (90 days)"]
+  },
+  {
+    "id": 4,
+    "question": "How many weeks of parental leave does a primary caregiver receive?",
+    "expected_answer": "16 weeks",
+    "relevant_phrases": ["16 weeks of paid parental leave"]
+  },
+  {
+    "id": 5,
+    "question": "When are performance reviews conducted during the year?",
+    "expected_answer": "July and December",
+    "relevant_phrases": ["Mid-year review: July", "Annual review: December"]
+  },
+  {
+    "id": 6,
+    "question": "What document must employees sign on their first day?",
+    "expected_answer": "Non-Disclosure Agreement",
+    "relevant_phrases": ["Non-Disclosure Agreement (NDA)"]
+  },
+  {
+    "id": 7,
+    "question": "How many business days does HR have to acknowledge a grievance?",
+    "expected_answer": "5 business days",
+    "relevant_phrases": ["acknowledge the grievance within 5 business days"]
+  },
+  {
+    "id": 8,
+    "question": "What is required for sick absences exceeding 3 consecutive days?",
+    "expected_answer": "medical certificate",
+    "relevant_phrases": ["medical certificate is required for absences exceeding 3 consecutive days"]
+  }
+]

@@ -1,0 +1,131 @@
+ACME CORPORATION — EMPLOYEE HANDBOOK
+Version 2.4 | Effective Date: January 1, 2025
+
+================================================================================
+SECTION 1: INTRODUCTION
+================================================================================
+
+Welcome to ACME Corporation. This handbook outlines the policies, procedures,
+and expectations that govern employment at ACME. All employees are required to
+read, understand, and comply with the contents of this handbook.
+
+This handbook is not a contract of employment. ACME reserves the right to
+modify, revoke, or add policies at any time.
+
+================================================================================
+SECTION 2: CODE OF CONDUCT
+================================================================================
+
+2.1 General Conduct
+Employees are expected to behave professionally and ethically in all
+interactions, whether with colleagues, clients, or the public. Conduct that
+disrupts the workplace or brings ACME into disrepute is grounds for
+disciplinary action up to and including termination.
+
+2.2 Conflict of Interest
+Employees must disclose any outside employment or personal relationships that
+could conflict with their duties at ACME. Failure to disclose a conflict of
+interest may result in immediate dismissal.
+
+2.3 Confidentiality
+All business information, including customer data, financial records, and
+trade secrets, must be kept strictly confidential. Employees must sign a
+Non-Disclosure Agreement (NDA) on their first day of employment.
+
+================================================================================
+SECTION 3: LEAVE POLICY
+================================================================================
+
+3.1 Annual Leave
+Full-time employees are entitled to 20 days of paid annual leave per calendar
+year. Leave must be approved by the employee's line manager at least 2 weeks
+in advance.
+
+3.2 Sick Leave
+Employees are entitled to 10 days of paid sick leave per year. A medical
+certificate is required for absences exceeding 3 consecutive days.
+
+3.3 Parental Leave
+Primary caregivers are entitled to 16 weeks of paid parental leave.
+Secondary caregivers are entitled to 4 weeks of paid parental leave.
+Parental leave must be taken within 12 months of the child's birth or adoption.
+
+3.4 Unpaid Leave
+Requests for unpaid leave beyond standard entitlements will be considered
+on a case-by-case basis and require approval from HR and the department head.
+
+================================================================================
+SECTION 4: REMOTE WORK POLICY
+================================================================================
+
+4.1 Eligibility
+Employees who have completed their probation period (90 days) are eligible
+to apply for remote work arrangements. Eligibility is subject to role
+requirements and manager approval.
+
+4.2 Equipment
+ACME will provide a laptop and necessary software for approved remote workers.
+Employees are responsible for maintaining a safe and productive home workspace.
+ACME is not liable for personal equipment used for work purposes.
+
+4.3 Data Security
+Remote workers must connect to the ACME VPN when accessing internal systems.
+Storing company data on personal devices or unauthorized cloud services is
+strictly prohibited.
+
+================================================================================
+SECTION 5: PERFORMANCE & REVIEWS
+================================================================================
+
+5.1 Performance Review Cycle
+All employees undergo a formal performance review twice per year:
+  - Mid-year review: July
+  - Annual review: December
+
+5.2 Performance Improvement Plans (PIP)
+Employees who consistently fail to meet performance expectations may be placed
+on a Performance Improvement Plan. A PIP outlines specific targets and a
+timeframe (typically 30–90 days) within which improvement is expected.
+
+5.3 Promotions
+Promotion decisions are based on performance review scores, tenure, and
+available positions. Employees must have a minimum rating of "Meets Expectations"
+in their most recent review to be considered for promotion.
+
+================================================================================
+SECTION 6: DISCIPLINARY PROCEDURE
+================================================================================
+
+6.1 Verbal Warning
+The first step in the disciplinary process for minor infractions is a
+verbal warning documented in the employee's file.
+
+6.2 Written Warning
+A written warning is issued for repeated minor infractions or a single
+serious infraction. The written warning details the issue and expectations
+going forward.
+
+6.3 Final Written Warning
+If the behaviour continues after a written warning, a final written warning
+is issued. At this stage, the employee is advised that further infractions
+may result in dismissal.
+
+6.4 Dismissal
+Dismissal may occur after a final written warning or immediately for gross
+misconduct (e.g., fraud, violence, serious breach of confidentiality).
+
+================================================================================
+SECTION 7: GRIEVANCE PROCEDURE
+================================================================================
+
+Employees who have a grievance should first attempt to resolve it informally
+with their line manager. If this is not possible or appropriate, a formal
+grievance can be submitted to HR in writing.
+
+HR will acknowledge the grievance within 5 business days and schedule a
+hearing within 15 business days. Employees may be accompanied by a colleague
+or union representative at the hearing.
+
+================================================================================
+END OF HANDBOOK
+================================================================================

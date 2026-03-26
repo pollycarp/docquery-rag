@@ -1,0 +1,55 @@
+services:
+
+  # ── PostgreSQL + pgvector ──────────────────────────────────────────────────
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: rag_postgres
+    environment:
+      POSTGRES_USER: raguser
+      POSTGRES_PASSWORD: ragpassword
+      POSTGRES_DB: ragdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U raguser -d ragdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── FastAPI Application ────────────────────────────────────────────────────
+  api:
+    build: .
+    container_name: rag_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Inside Docker, services reach each other by service name, not localhost
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # ── Streamlit UI ───────────────────────────────────────────────────────────
+  ui:
+    build: .
+    container_name: rag_ui
+    # Override the default CMD to run Streamlit instead of the API server
+    command: streamlit run ui/app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      # Point the UI at the API service by its Docker service name
+      API_BASE_URL: http://api:8000
+      API_KEY: dev-secret-key
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

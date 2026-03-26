@@ -1,0 +1,36 @@
+# Never include these in the Docker image
+
+# Secrets
+.env
+
+# Virtual environment (dependencies are installed inside the image)
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files
+tests/
+pytest_cache/
+.pytest_cache/
+
+# Development tools
+.vscode/
+.idea/
+
+# MLflow runs
+mlruns/
+
+# Evaluation results
+evaluation/results_*.json
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
